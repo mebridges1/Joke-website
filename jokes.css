@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;   
+}
+
+#numIn {
+    width: 35px;
+}
+
+#getJokeButton {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+#jokeSetup {
+    color: red;
+}
+
+#jokePunchline {
+    color: green;
+}
