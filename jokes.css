@@ -25,3 +25,32 @@ body {
 #jokePunchline {
     color: green;
 }
+
+#jokeTable {
+    width: 100%;
+}
+
+#jokeTable table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#jokeTable th{
+    background-color: grey;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+#jokeTable td{
+    color: yellow;
+    border: 1px solid grey;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+#jokeTable tr:nth-child(odd) {
+    background-color: blue;
+}

@@ -54,8 +54,10 @@ function displayJoke(){
 
         document.getElementById("jokeTable").replaceChildren() // delete table from changing number
     }
-    else if (numJokes < jokeList.length || numJokes > 1) { // in table
+    else if (numJokes <= jokeList.length && numJokes > 1) { // in table
         createTable(numJokes)
+        document.getElementById("jokeSetup").replaceChildren()
+        document.getElementById("jokePunchline").replaceChildren()
     }
     return   
 }
